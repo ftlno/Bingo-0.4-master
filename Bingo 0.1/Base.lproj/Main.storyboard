@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,16 +10,19 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bingo_0_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bingo_0_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bingo med pernille" translatesAutoresizingMaskIntoConstraints="NO" id="6Nq-fR-lg5">
-                                <rect key="frame" x="0.0" y="123" width="414" height="808"/>
+                                <rect key="frame" x="68" y="69" width="283" height="264"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRP-m6-9h5">
-                                <rect key="frame" x="83" y="534" width="248" height="82"/>
+                                <rect key="frame" x="85" y="341" width="248" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="yCX-Ex-EOC"/>
+                                </constraints>
                                 <state key="normal" backgroundImage="Button-2"/>
                                 <connections>
                                     <action selector="letsBingoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GD0-pf-ud5"/>
@@ -28,18 +31,18 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Nq-fR-lg5" secondAttribute="trailing" id="BvF-JV-sf5"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="123" id="Ewi-LD-WS7"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YG9-Fq-Lsu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Nq-fR-lg5" secondAttribute="bottom" constant="-123" id="Z7t-Zj-S9Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kRP-m6-9h5" secondAttribute="trailing" constant="83" id="aD0-h4-7sI"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aUG-xm-aj1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kRP-m6-9h5" secondAttribute="bottom" constant="192" id="fX4-pp-uey"/>
-                            <constraint firstItem="kRP-m6-9h5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="534" id="oxW-zg-AXX"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="123" id="sY0-7a-W8A"/>
-                            <constraint firstItem="kRP-m6-9h5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="xdH-Hc-k8W"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="123" id="ymH-oy-SSn"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zoA-fw-wcs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Nq-fR-lg5" secondAttribute="trailing" constant="63" id="BvF-JV-sf5"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="Ewi-LD-WS7"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-63" id="YG9-Fq-Lsu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Nq-fR-lg5" secondAttribute="bottom" constant="475" id="Z7t-Zj-S9Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kRP-m6-9h5" secondAttribute="trailing" constant="81" id="aD0-h4-7sI"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="aUG-xm-aj1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kRP-m6-9h5" secondAttribute="bottom" constant="371" id="fX4-pp-uey"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-475" id="sY0-7a-W8A"/>
+                            <constraint firstItem="kRP-m6-9h5" firstAttribute="top" secondItem="6Nq-fR-lg5" secondAttribute="bottom" constant="8" id="wTm-xF-tR1"/>
+                            <constraint firstItem="kRP-m6-9h5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="xdH-Hc-k8W"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="ymH-oy-SSn"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="zoA-fw-wcs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -49,12 +52,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+            <point key="canvasLocation" x="136.23188405797103" y="117.1875"/>
         </scene>
         <!--View Controller bingoBonger-->
         <scene sceneID="QdK-VE-uEQ">
             <objects>
-                <viewController id="q5C-WA-5yN" userLabel="View Controller bingoBonger" customClass="BingoBonger" customModule="Bingo_0_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q5C-WA-5yN" userLabel="View Controller bingoBonger" customClass="BingoBonger" customModule="Bingo_0_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7du-Sq-drf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1261,8 +1264,8 @@
     </scenes>
     <resources>
         <image name="Bingo banner" width="320" height="100"/>
-        <image name="Bingo med pernille" width="276" height="597"/>
+        <image name="Bingo med pernille" width="414" height="495.5"/>
         <image name="Button-2" width="300" height="100"/>
-        <image name="arrowshape.turn.up.left" catalog="system" width="64" height="52"/>
+        <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
     </resources>
 </document>
