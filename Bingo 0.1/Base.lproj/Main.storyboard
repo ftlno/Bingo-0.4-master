@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="dark"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bingo med pernille" translatesAutoresizingMaskIntoConstraints="NO" id="6Nq-fR-lg5">
-                                <rect key="frame" x="69" y="69" width="276" height="264"/>
+                                <rect key="frame" x="0.0" y="69" width="414" height="264"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRP-m6-9h5">
                                 <rect key="frame" x="82" y="341" width="250" height="96"/>
@@ -65,7 +65,7 @@
                                 <rect key="frame" x="76" y="91" width="262" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glx-SQ-2Ge">
-                                        <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="B">
@@ -73,7 +73,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieK-BH-3tN">
-                                        <rect key="frame" x="52.666666666666657" y="0.0" width="51" height="30"/>
+                                        <rect key="frame" x="53" y="0.0" width="50.5" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="I">
@@ -81,7 +81,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9T-qt-VRA">
-                                        <rect key="frame" x="105.66666666666667" y="0.0" width="50.666666666666671" height="30"/>
+                                        <rect key="frame" x="105.5" y="0.0" width="51" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="N">
@@ -89,7 +89,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xe7-iT-an4">
-                                        <rect key="frame" x="158.33333333333334" y="0.0" width="51" height="30"/>
+                                        <rect key="frame" x="158.5" y="0.0" width="50.5" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="G">
@@ -97,7 +97,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNn-rm-xdG">
-                                        <rect key="frame" x="211.33333333333331" y="0.0" width="50.666666666666686" height="30"/>
+                                        <rect key="frame" x="211" y="0.0" width="51" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                         <state key="normal" title="O">
@@ -118,7 +118,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-eN-Gbx">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B1"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -130,7 +130,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vv4-Ma-Rvg">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I1"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -142,7 +142,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D51-Ob-saZ">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N1"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -154,7 +154,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45i-cG-YZ5">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G1"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -166,7 +166,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSc-ZI-DrR">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O1"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -186,7 +186,7 @@
                                         <rect key="frame" x="0.0" y="42" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n53-Og-Dgi">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B2"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -198,7 +198,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrx-vZ-RvW">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I2"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -210,7 +210,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NB7-mE-ZJA">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N2"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -222,7 +222,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuK-b5-cjK">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G2"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -234,7 +234,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUM-1h-Y3W">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O2"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -254,7 +254,7 @@
                                         <rect key="frame" x="0.0" y="84" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUW-ld-B0F">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B3"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -266,7 +266,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5N5-Lx-lme">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I3"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -278,7 +278,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCD-ms-zLM">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N3"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -290,7 +290,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxc-Ya-GGp">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G3"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -302,7 +302,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NE7-6m-H5O">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O3"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -322,7 +322,7 @@
                                         <rect key="frame" x="0.0" y="126" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAM-pM-0Da">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B4"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -334,7 +334,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbg-82-bvc">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I4"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -346,7 +346,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CN-57-fwp">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N4"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -358,7 +358,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8h-Kk-eE7">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G4"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -370,7 +370,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Or3-8K-fEE">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O4"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -390,7 +390,7 @@
                                         <rect key="frame" x="0.0" y="168" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEu-Ks-zu6">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B5"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -402,7 +402,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElA-Cd-Ytv">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I5"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -414,7 +414,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDK-L1-poz">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N5"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -426,7 +426,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZX-c9-Oks">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G5"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -438,7 +438,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNc-2X-3OJ">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O5"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -460,13 +460,13 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="1Qb-EA-epH" userLabel="3rdStackView">
-                                <rect key="frame" x="76" y="597" width="262" height="410"/>
+                                <rect key="frame" x="76" y="597" width="262" height="208"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-Yu-Uel">
-                                        <rect key="frame" x="0.0" y="0.0" width="262" height="80.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAX-9L-j25">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="80.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B11"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -478,7 +478,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Arj-Ms-M4g">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I11"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -490,7 +490,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytJ-B5-fkj">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="80.333333333333329"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N11"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -502,7 +502,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="co1-5H-Dbg">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G11"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -514,7 +514,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nts-FW-yLs">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="80.333333333333329"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O11"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -527,12 +527,15 @@
                                             </button>
                                         </subviews>
                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GCI-ur-Ap0" userLabel="height = 40"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ziu-BH-08j">
-                                        <rect key="frame" x="0.0" y="82.333333333333371" width="262" height="80.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="42" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bju-sa-j4l">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="80.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B12"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -544,7 +547,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKu-DA-kWR">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I12"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -556,7 +559,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj3-Ps-fA5">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="80.333333333333329"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N12"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -568,7 +571,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ao-LO-yZf">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G12"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -580,7 +583,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3se-DA-cQa">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="80.333333333333329"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O12"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -592,12 +595,15 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qe9-4H-YF3" userLabel="height = 40"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hC3-rl-0EA">
-                                        <rect key="frame" x="0.0" y="164.66666666666663" width="262" height="80.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="84" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUZ-SA-6b6">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="80.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B13"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -609,7 +615,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfh-Up-Kfo">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="80.666666666666671"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I13"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -621,7 +627,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0h-T6-dl8">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="80.666666666666671"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N13"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -633,7 +639,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoX-cY-xvp">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="80.666666666666671"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G13"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -645,7 +651,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rS-D8-ckB">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="80.666666666666671"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O13"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -657,12 +663,15 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="xAb-M9-dZC" userLabel="height = 40"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-xE-gvU">
-                                        <rect key="frame" x="0.0" y="247.3333333333334" width="262" height="80.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="126" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRR-gF-6ty">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="80.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B14"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -674,7 +683,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9b-TF-uVm">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I14"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -686,7 +695,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69t-fd-cbq">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="80.333333333333329"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N14"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -698,7 +707,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXS-lI-KXL">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G14"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -710,7 +719,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keh-Su-UI3">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="80.333333333333329"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O14"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -722,12 +731,15 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="5NJ-PE-gkA" userLabel="height = 40"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-Yu-vxa">
-                                        <rect key="frame" x="0.0" y="329.66666666666663" width="262" height="80.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="168" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-8k-lMj">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="80.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B15"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -739,7 +751,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-ZB-r3U">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I15"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -751,7 +763,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7b-Zo-WbP">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="80.333333333333329"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N15"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -763,7 +775,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYx-81-ASQ">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="80.333333333333329"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G15"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -775,7 +787,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihn-Mj-Ugj">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="80.333333333333329"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O15"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -787,10 +799,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hb6-o1-VkE" userLabel="height = 40"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="410" id="M6U-Cv-N9Q" userLabel="height = 208"/>
+                                    <constraint firstAttribute="height" constant="208" id="M6U-Cv-N9Q" userLabel="height = 208"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-0B-h8u" userLabel="2nd StackView">
@@ -800,7 +815,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Tg-YBG">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B6"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -812,7 +827,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRE-qN-f8c">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I6"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -824,7 +839,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Le3-sl-en7">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N6"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -836,7 +851,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd3-K2-Qvs">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G6"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -848,7 +863,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgz-MM-MFZ">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O6"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -868,7 +883,7 @@
                                         <rect key="frame" x="0.0" y="42" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cO3-Nv-n7x">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B7"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -880,7 +895,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvi-IX-kg2">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I7"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -892,7 +907,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYx-LF-nc2">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N7"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -904,7 +919,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rny-HD-Kld">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G7"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -916,7 +931,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puU-nR-803">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O7"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -936,7 +951,7 @@
                                         <rect key="frame" x="0.0" y="84" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXJ-Dg-gXJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B8"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -948,7 +963,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agz-UB-Prw">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I8"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -960,7 +975,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdL-Jj-woh">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N8"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -972,7 +987,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFt-CC-Xdn">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G8"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -984,7 +999,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOB-6U-HMu">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O8"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1004,7 +1019,7 @@
                                         <rect key="frame" x="0.0" y="126" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5i-rs-qSU">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B9"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1016,7 +1031,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kM1-S4-biG">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I9"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1028,7 +1043,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0az-AG-eRM">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N9"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1040,7 +1055,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WW-6T-ElM">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G9"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1052,7 +1067,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQH-dv-8mm">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O9"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1072,7 +1087,7 @@
                                         <rect key="frame" x="0.0" y="168" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHI-zW-TFI">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="B10"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1084,7 +1099,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEs-Jy-G68">
-                                                <rect key="frame" x="52.666666666666657" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="52.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="I10"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1096,7 +1111,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48O-C2-bH5">
-                                                <rect key="frame" x="105.33333333333333" y="0.0" width="51.333333333333329" height="40"/>
+                                                <rect key="frame" x="105" y="0.0" width="52" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="N10"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1108,7 +1123,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL3-Kn-qBC">
-                                                <rect key="frame" x="157.66666666666666" y="0.0" width="51.666666666666657" height="40"/>
+                                                <rect key="frame" x="158" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="G10"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1120,7 +1135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeA-2y-2E8">
-                                                <rect key="frame" x="210.33333333333331" y="0.0" width="51.666666666666686" height="40"/>
+                                                <rect key="frame" x="210.5" y="0.0" width="51.5" height="40"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="O10"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1264,7 +1279,7 @@
     </scenes>
     <resources>
         <image name="Bingo banner" width="320" height="100"/>
-        <image name="Bingo med pernille" width="276" height="330.33334350585938"/>
+        <image name="Bingo med pernille" width="414" height="495.5"/>
         <image name="Button-2" width="300" height="100"/>
         <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
     </resources>
