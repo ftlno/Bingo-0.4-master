@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,10 +16,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bingo med pernille" translatesAutoresizingMaskIntoConstraints="NO" id="6Nq-fR-lg5">
-                                <rect key="frame" x="0.0" y="69" width="414" height="264"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="495.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="TOE-3M-Ej0"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRP-m6-9h5">
-                                <rect key="frame" x="82" y="341" width="250" height="96"/>
+                                <rect key="frame" x="82" y="523.5" width="250" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="ZFj-gV-Bch"/>
                                     <constraint firstAttribute="height" constant="96" id="yCX-Ex-EOC"/>
@@ -32,13 +35,11 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="Ewi-LD-WS7"/>
                             <constraint firstItem="kRP-m6-9h5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UUd-ae-Zym"/>
                             <constraint firstItem="6Nq-fR-lg5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zrh-yI-tfr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kRP-m6-9h5" secondAttribute="bottom" constant="371" id="fX4-pp-uey"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-475" id="sY0-7a-W8A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kRP-m6-9h5" secondAttribute="bottom" constant="351" id="fX4-pp-uey"/>
                             <constraint firstItem="kRP-m6-9h5" firstAttribute="top" secondItem="6Nq-fR-lg5" secondAttribute="bottom" constant="8" id="wTm-xF-tR1"/>
-                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="ymH-oy-SSn"/>
+                            <constraint firstItem="6Nq-fR-lg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ymH-oy-SSn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -48,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.97122302158274" y="117.08633093525181"/>
+            <point key="canvasLocation" x="135.19999999999999" y="116.74876847290641"/>
         </scene>
         <!--View Controller bingoBonger-->
         <scene sceneID="QdK-VE-uEQ">
